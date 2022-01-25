@@ -1,7 +1,3 @@
-@font-face {
-  font-family: bodoni;
-  src: url("../fonts/BodoniFLF-Bold.ttf");
-}
 body {
   position: relative;
   background-color: #111;
@@ -418,7 +414,7 @@ a svg {
   transform: rotate(180deg);
   background-color: transparent;
   border: none;
-  font-family: bodoni;
+  font-family: "Bodoni moda";
   transition: opacity 0.3s ease;
 }
 .exit #project-description-top {
