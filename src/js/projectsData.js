@@ -80,4 +80,5 @@ export const projectData = {
       poster: "",
     },
   },
+  
 };
