@@ -48,3 +48,7 @@ export function easeOutCubic(x) {
 export function easeOutQuart(x) {
   return 1 - Math.pow(1 - x, 4);
 }
+function easeInQuart(x) {
+  return x * x * x * x;
+  
+  }

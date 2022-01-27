@@ -195,9 +195,9 @@ export class TimeLine {
       )
       .join("")}
     </div>`;
-      const video = `<div class="video" style="animation:slideInUp .5s ease;min-height${
+      const video = `<div class="video" style="animation:slideInUp .5s ease;min-height:${
         data.video.mobile ? 400 : 200
-      };"><div><video width="${
+      }px;"><div><video width="${
         data.video.mobile ? 300 : 400
       }" loop autoplay="true" poster="./static/videos/rada.jpg"><source src="${
         data.video.source

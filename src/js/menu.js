@@ -2,7 +2,7 @@ import { easeOutBounce, easeOutQuart } from "./easing.js";
 import { anime } from "./work.js";
 
 (function menu() {
-  let centerX,  start, end, h;
+  let centerX, h;
   const canvas = document.getElementById("transition-overlay");
   canvas.height = window.innerHeight;
   canvas.width = window.innerWidth;
@@ -46,7 +46,7 @@ import { anime } from "./work.js";
     );
   };
 
-  const menuToggle = (e) => {
+  const menuToggle = () => {
     if (isNavOpen) {
       easing = easeOutQuart;
       ctx.globalCompositeOperation = "destination-out";

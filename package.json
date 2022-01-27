@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "deploy":"webpack && git add . && git commit -m  'deployment update' && git push "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojayjonathan/ojayjonathan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ojayjonathan/ojayjonathan/issues"
+  },
+  "homepage": "https://github.com/ojayjonathan/ojayjonathan#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
