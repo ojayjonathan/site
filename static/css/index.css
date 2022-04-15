@@ -620,3 +620,20 @@ a:hover:after {
 .project-details .footer {
   display: none;
 }
+.skills{
+  display: flex;
+}
+.skills ul{
+  width: 50%;
+  max-width: 300px;
+  list-style-position: outside
+}
+.skills li{
+  list-style-type: "▹";
+
+}
+ul li::marker {
+  color: var(--blue);
+  font-size: 1.5em;
+  padding-right: 1rem;
+}
