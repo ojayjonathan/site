@@ -1,482 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0,maximum-scale=2.0,user-scalable=no,height=device-height"
-    />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./static/css/index.css" />
-    <link rel="stylesheet" href="./static/css/animate.css" />
-    <link rel="preload" as="image" href="./static/videos/rada.jpg" />
-  </head>
 
-  <body>
-    <div class="menu">
-      <div class="menu-toggler">
-        <button class="nav-toggler">
-          <svg width="45" height="4" viewBox="0 0 45 4" fill="none">
-            <line
-              y1="2"
-              x2="45"
-              y2="2"
-              stroke="currentColor"
-              stroke-width="4"
-            />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0,maximum-scale=2.0,user-scalable=no,height=device-height" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./static/css/index.css" />
+  <link rel="stylesheet" href="./static/css/animate.css" />
+  <link rel="preload" as="image" href="./static/videos/rada.jpg" />
+</head>
+
+<body>
+  <div class="menu">
+    <div class="menu-toggler">
+      <button class="nav-toggler">
+        <svg width="45" height="4" viewBox="0 0 45 4" fill="none">
+          <line y1="2" x2="45" y2="2" stroke="currentColor" stroke-width="4" />
+        </svg>
+        <svg width="45" height="4" viewBox="0 0 45 4" fill="none">
+          <line y1="2" x2="45" y2="2" stroke="currentColor" stroke-width="4" />
+        </svg>
+        <span>MENU</span>
+      </button>
+    </div>
+    <div class="menu-items">
+      <ul>
+        <li>
+          <a href="#site-hero"><span class="number">01.</span> <span class="text">Home</span></a>
+        </li>
+        <li>
+          <a href="#services"><span class="number">02.</span> <span class="">Services</span></a>
+        </li>
+        <li>
+          <a href="#work"><span class="number">03.</span> <span>WORK</span></a>
+        </li>
+        <li>
+          <a href="#about"><span class="number">04. </span>
+            <span>about</span>
+          </a>
+        </li>
+        <li>
+          <a href="#about"><span class="number">05. </span>
+            <span>contact</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <svg class="cursor" width="60" viewBox="0 0 40 40" fill="none">
+    <circle cx="20" cy="20" r="19" stoke-width="1" stroke="var(--blue)"></circle>
+  </svg>
+  <main>
+    <div class="container">
+      <section class="site-hero" id="site-hero">
+        <div class="site-hero__text">
+          Hi, I’m Jonathan. I design and build, mobile and web applications.
+        </div>
+        <span class="keyboard-message">
+          Use keyboard arrows  or swipe to scroll
+        </span>
+      </section>
+      <section id="services">
+        <h1 class="section-header">WHAT I DO</h1>
+        <div class="expertise">
+          <div class="animation">
+            <svg width="100%" height="100%"></svg>
+          </div>
+          <div class="content">
+            <div class="content-items">
+              <div class="content-item">
+                <h2>
+                  <small>01.</small>
+                  Web design
+                </h2>
+                I specialize in creating engaging and interactive web designs
+                that improve user experience. I am passionate about delivering
+                creative and intuitive designs that make a lasting impression
+                on users.
+              </div>
+              <div class="content-item">
+                <h2><small>02.</small> Web development</h2>
+                I am dedicated to delivering fast, responsive, and integrated
+                web solutions that are tailored to the specific needs of my
+                clients. I am passionate about creating awesome web
+                experiences that are easy to use and navigate.
+              </div>
+              <div class="content-item">
+                <h2><small>03.</small> Mobile development</h2>
+                I am experienced in designing and developing both android and
+                iOS applications. I have a deep understanding of the unique
+                challenges and opportunities that mobile development presents,
+                and I am always up-to-date with the latest technologies and
+                trends in the field.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="work" id="work">
+        <h1 class="section-header">SOME OF MY WORK</h1>
+        <div class="work-item" id="item-1" data-name="matndogo">
+          <div class="image">
+            <img src="./static/images/matndogo.webp" alt="" />
+            <canvas></canvas>
+            <div class="project-name">Mat'ndogo</div>
+          </div>
+          <div class="project-num">
+            <svg width="70" viewBox="0 0 296 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M241.4 97.2H228.4C228.4 66.7 265.1 42.2 295.4 42.2V55.4C271.6 55.4 241.4 74.9 241.4 97.2Z"
+                fill="currentColor" />
+              <path d="M295.4 55.2C265.1 55.2 228.4 30.7 228.4 0.200012H241.4C241.4 22.4 271.6 42 295.4 42V55.2Z"
+                fill="currentColor" />
+              <path d="M295.4 42H0.400024V55.4H295.4V42Z" fill="currentColor" />
+            </svg>
+            <span>01</span>
+          </div>
+          <div class="year">
+            <div class="rotate">
+              <span> 2021 </span>
+            </div>
+          </div>
+        </div>
+        <div class="work-item" id="item-2" data-name="rada">
+          <div class="image">
+            <img src="./static/images/rada.webp" alt="" />
+            <canvas></canvas>
+            <div class="project-name">Rada Egerton</div>
+          </div>
+          <div class="project-num">
+            <svg width="70" viewBox="0 0 296 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M241.4 97.2H228.4C228.4 66.7 265.1 42.2 295.4 42.2V55.4C271.6 55.4 241.4 74.9 241.4 97.2Z"
+                fill="currentColor" />
+              <path d="M295.4 55.2C265.1 55.2 228.4 30.7 228.4 0.200012H241.4C241.4 22.4 271.6 42 295.4 42V55.2Z"
+                fill="currentColor" />
+              <path d="M295.4 42H0.400024V55.4H295.4V42Z" fill="currentColor" />
+            </svg>
+            <span>02</span>
+          </div>
+          <div class="year">
+            <div class="rotate">
+              <span> 2021 </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-item" id="item-3" data-name="converter_mobile">
+          <div class="image">
+            <img src="./static/images/unit_converter_mobile.webp" alt="" />
+            <canvas></canvas>
+            <div class="project-name">Unit Converter</div>
+          </div>
+
+          <div class="project-num">
+            <svg width="70" viewBox="0 0 296 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M241.4 97.2H228.4C228.4 66.7 265.1 42.2 295.4 42.2V55.4C271.6 55.4 241.4 74.9 241.4 97.2Z"
+                fill="currentColor" />
+              <path d="M295.4 55.2C265.1 55.2 228.4 30.7 228.4 0.200012H241.4C241.4 22.4 271.6 42 295.4 42V55.2Z"
+                fill="currentColor" />
+              <path d="M295.4 42H0.400024V55.4H295.4V42Z" fill="currentColor" />
+            </svg>
+            <span>03</span>
+          </div>
+
+          <div class="year">
+            <div class="rotate">
+              <span> 2020 </span>
+            </div>
+          </div>
+        </div>
+        <div class="work-item" id="item-4" data-name="converter_web">
+          <div class="image">
+            <img src="./static/images/unic_converter_web.webp" alt="" />
+            <canvas></canvas>
+            <div class="project-name">Unit Converter</div>
+          </div>
+          <div class="project-num">
+            <svg width="70" viewBox="0 0 296 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M241.4 97.2H228.4C228.4 66.7 265.1 42.2 295.4 42.2V55.4C271.6 55.4 241.4 74.9 241.4 97.2Z"
+                fill="currentColor" />
+              <path d="M295.4 55.2C265.1 55.2 228.4 30.7 228.4 0.200012H241.4C241.4 22.4 271.6 42 295.4 42V55.2Z"
+                fill="currentColor" />
+              <path d="M295.4 42H0.400024V55.4H295.4V42Z" fill="currentColor" />
+            </svg>
+            <span>04</span>
+          </div>
+          <div class="year">
+            <div class="rotate">
+              <span> 2020 </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-3" id="about">
+        <h1 class="section-header">ABOUT</h1>
+        <div class="about">
+          <div class="info">
+            <p>
+              Hi, I'm Onderi Jonathan, I am an ambitious and enthusiastic
+              individual who is dedicated to delivering high-quality,
+              user-friendly solutions that meet the needs of my clients.
+            </p>
+            <p>
+              I am a firm believer in the power of creativity, learning, and
+              improvement, and I am always looking for new and exciting
+              challenges to take on.
+            </p>
+            <p>
+              In addition to my expertise in web and mobile development, I am
+              also passionate about machine learning and data science. I am
+              always up-to-date with the latest advancements in these fields,
+              and I am always looking for ways to integrate these technologies
+              into my work.
+            </p>
+            <p>
+              I specialize in using technologies such as Python, MySQL,
+              Django, Flutter, ReactJs, Javascript, HTML, and CSS to create
+              fast, responsive, and integrated web and mobile solutions. I am
+              confident in my ability to deliver high-quality, user-friendly
+              solutions that meet the needs of my clients.
+            </p>
+          </div>
+          <div>
+            <img src="./static/images/profile.webp" alt="" class="about-img" />
+          </div>
+        </div>
+        <h2>Here is some of my skills:</h2>
+        <div class="skills">
+          <ul>
+            <li>Python</li>
+            <li>Django</li>
+            <li>Mysql</li>
+            <li>Git</li>
+          </ul>
+          <ul>
+            <li>Javascript</li>
+            <li>Flutter</li>
+            <li>Dart</li>
+            <li>HTML & CSS</li>
+            <li>ReactJs</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <div id="contact">
+      <div class="footer">
+        <div class="social-links">
+          <div>
+            <a href="https://www.linkedin.com/in/jonathan-onderi-93aab3195">
+              <span>linkedin</span>
+              <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.94085 24.766L24.3465 8.3604M24.3465 8.3604H10.4648M24.3465 8.3604V22.2421"
+                  stroke="currentColor"></path>
+              </svg>
+            </a>
+          </div>
+          <div>
+            <a href="https://wa.me/254742446941">
+              <span>whatsapp</span>
+              <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.94085 24.766L24.3465 8.3604M24.3465 8.3604H10.4648M24.3465 8.3604V22.2421"
+                  stroke="currentColor"></path>
+              </svg>
+            </a>
+            <a href="https://github.com/ojayjonathan/">
+              <span> github</span>
+              <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.94085 24.766L24.3465 8.3604M24.3465 8.3604H10.4648M24.3465 8.3604V22.2421"
+                  stroke="currentColor"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="blank"></div>
+        <div class="email">jonathanonderi2018@yahoo.com</div>
+      </div>
+    </div>
+  </main>
+
+  <div class="project-details">
+    <ul class="transition">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <div class="container">
+      <div class="my-1" style="position: sticky; z-index: 100">
+        <button class="close">
+          <svg width="70" viewBox="0 0 296 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M241.4 97.2H228.4C228.4 66.7 265.1 42.2 295.4 42.2V55.4C271.6 55.4 241.4 74.9 241.4 97.2Z"
+              fill="#fff" />
+            <path d="M295.4 55.2C265.1 55.2 228.4 30.7 228.4 0.200012H241.4C241.4 22.4 271.6 42 295.4 42V55.2Z"
+              fill="#fff" />
+            <path d="M295.4 42H0.400024V55.4H295.4V42Z" fill="#fff" />
           </svg>
-          <svg width="45" height="4" viewBox="0 0 45 4" fill="none">
-            <line
-              y1="2"
-              x2="45"
-              y2="2"
-              stroke="currentColor"
-              stroke-width="4"
-            />
-          </svg>
-          <span>MENU</span>
         </button>
       </div>
-      <div class="menu-items">
-        <ul>
-          <li>
-            <a href="#site-hero"
-              ><span class="number">01.</span> <span class="text">Home</span></a
-            >
-          </li>
-          <li>
-            <a href="#services"
-              ><span class="number">02.</span> <span class="">Services</span></a
-            >
-          </li>
-          <li>
-            <a href="#work"
-              ><span class="number">03.</span> <span>WORK</span></a
-            >
-          </li>
-          <li>
-            <a href="#about"
-              ><span class="number">04. </span>
-              <span>about</span>
+
+      <div id="project-description-top"></div>
+      <div class="project-description" id="project-description-bottom"></div>
+    </div>
+    <div id="contact">
+      <div class="footer">
+        <div class="social-links">
+          <div>
+            <a href="https://www.linkedin.com/in/jonathan-onderi-93aab3195">
+              <span>linkedin</span>
+              <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.94085 24.766L24.3465 8.3604M24.3465 8.3604H10.4648M24.3465 8.3604V22.2421"
+                  stroke="currentColor"></path>
+              </svg>
             </a>
-          </li>
-          <li>
-            <a href="#about"
-              ><span class="number">05. </span>
-              <span>contact</span>
+          </div>
+          <div>
+            <a href="https://wa.me/254742446941">
+              <span>whatsapp</span>
+              <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.94085 24.766L24.3465 8.3604M24.3465 8.3604H10.4648M24.3465 8.3604V22.2421"
+                  stroke="currentColor"></path>
+              </svg>
             </a>
-          </li>
-        </ul>
+            <a href="https://github.com/ojayjonathan/">
+              <span> github</span>
+              <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.94085 24.766L24.3465 8.3604M24.3465 8.3604H10.4648M24.3465 8.3604V22.2421"
+                  stroke="currentColor"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="blank"></div>
+        <div class="email">jonathanonderi2018@yahoo.com</div>
       </div>
     </div>
-    <svg class="cursor" width="60" viewBox="0 0 40 40" fill="none">
-      <circle
-        cx="20"
-        cy="20"
-        r="19"
-        stoke-width="1"
-        stroke="var(--blue)"
-      ></circle>
-    </svg>
-    <main>
-      <div class="container">
-        <section class="site-hero" id="site-hero">
-          <div class="site-hero__text">
-            Hi, I’m Jonathan. I design and build, mobile and web applications.
-          </div>
-        </section>
-        <section id="services">
-          <h1 class="section-header">WHAT I DO</h1>
-          <div class="expertise">
-            <div class="animation">
-              <svg width="100%" height="100%"></svg>
-            </div>
-            <div class="content">
-              <div class="content-items">
-                <div class="content-item">
-                  <h2>
-                    <small>01.</small>
-                    Web design
-                  </h2>
-                  I specialize in creating engaging and interactive web designs
-                  that improve user experience. I am passionate about delivering
-                  creative and intuitive designs that make a lasting impression
-                  on users.
-                </div>
-                <div class="content-item">
-                  <h2><small>02.</small> Web development</h2>
-                  I am dedicated to delivering fast, responsive, and integrated
-                  web solutions that are tailored to the specific needs of my
-                  clients. I am passionate about creating awesome web
-                  experiences that are easy to use and navigate.
-                </div>
-                <div class="content-item">
-                  <h2><small>03.</small> Mobile development</h2>
-                  I am experienced in designing and developing both android and
-                  iOS applications. I have a deep understanding of the unique
-                  challenges and opportunities that mobile development presents,
-                  and I am always up-to-date with the latest technologies and
-                  trends in the field.
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="work" id="work">
-          <h1 class="section-header">SOME OF MY WORK</h1>
-          <div class="work-item" id="item-1" data-name="matndogo">
-            <div class="image">
-              <img src="./static/images/matndogo.webp" alt="" />
-              <canvas></canvas>
-              <div class="project-name">Mat'ndogo</div>
-            </div>
-            <div class="project-num">
-              <svg
-                width="70"
-                viewBox="0 0 296 98"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M241.4 97.2H228.4C228.4 66.7 265.1 42.2 295.4 42.2V55.4C271.6 55.4 241.4 74.9 241.4 97.2Z"
-                  fill="currentColor"
-                />
-                <path
-                  d="M295.4 55.2C265.1 55.2 228.4 30.7 228.4 0.200012H241.4C241.4 22.4 271.6 42 295.4 42V55.2Z"
-                  fill="currentColor"
-                />
-                <path
-                  d="M295.4 42H0.400024V55.4H295.4V42Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span>01</span>
-            </div>
-            <div class="year">
-              <div class="rotate">
-                <span> 2021 </span>
-              </div>
-            </div>
-          </div>
-          <div class="work-item" id="item-2" data-name="rada">
-            <div class="image">
-              <img src="./static/images/rada.webp" alt="" />
-              <canvas></canvas>
-              <div class="project-name">Rada Egerton</div>
-            </div>
-            <div class="project-num">
-              <svg
-                width="70"
-                viewBox="0 0 296 98"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M241.4 97.2H228.4C228.4 66.7 265.1 42.2 295.4 42.2V55.4C271.6 55.4 241.4 74.9 241.4 97.2Z"
-                  fill="currentColor"
-                />
-                <path
-                  d="M295.4 55.2C265.1 55.2 228.4 30.7 228.4 0.200012H241.4C241.4 22.4 271.6 42 295.4 42V55.2Z"
-                  fill="currentColor"
-                />
-                <path
-                  d="M295.4 42H0.400024V55.4H295.4V42Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span>02</span>
-            </div>
-            <div class="year">
-              <div class="rotate">
-                <span> 2021 </span>
-              </div>
-            </div>
-          </div>
+  </div>
+  <canvas id="transition-overlay"> </canvas>
 
-          <div class="work-item" id="item-3" data-name="converter_mobile">
-            <div class="image">
-              <img src="./static/images/unit_converter_mobile.webp" alt="" />
-              <canvas></canvas>
-              <div class="project-name">Unit Converter</div>
-            </div>
+  <script src="./static/js/index.bundle.js"></script>
+</body>
 
-            <div class="project-num">
-              <svg
-                width="70"
-                viewBox="0 0 296 98"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M241.4 97.2H228.4C228.4 66.7 265.1 42.2 295.4 42.2V55.4C271.6 55.4 241.4 74.9 241.4 97.2Z"
-                  fill="currentColor"
-                />
-                <path
-                  d="M295.4 55.2C265.1 55.2 228.4 30.7 228.4 0.200012H241.4C241.4 22.4 271.6 42 295.4 42V55.2Z"
-                  fill="currentColor"
-                />
-                <path
-                  d="M295.4 42H0.400024V55.4H295.4V42Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span>03</span>
-            </div>
-
-            <div class="year">
-              <div class="rotate">
-                <span> 2020 </span>
-              </div>
-            </div>
-          </div>
-          <div class="work-item" id="item-4" data-name="converter_web">
-            <div class="image">
-              <img src="./static/images/unic_converter_web.webp" alt="" />
-              <canvas></canvas>
-              <div class="project-name">Unit Converter</div>
-            </div>
-            <div class="project-num">
-              <svg
-                width="70"
-                viewBox="0 0 296 98"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M241.4 97.2H228.4C228.4 66.7 265.1 42.2 295.4 42.2V55.4C271.6 55.4 241.4 74.9 241.4 97.2Z"
-                  fill="currentColor"
-                />
-                <path
-                  d="M295.4 55.2C265.1 55.2 228.4 30.7 228.4 0.200012H241.4C241.4 22.4 271.6 42 295.4 42V55.2Z"
-                  fill="currentColor"
-                />
-                <path
-                  d="M295.4 42H0.400024V55.4H295.4V42Z"
-                  fill="currentColor"
-                />
-              </svg>
-              <span>04</span>
-            </div>
-            <div class="year">
-              <div class="rotate">
-                <span> 2020 </span>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="section-3" id="about">
-          <h1 class="section-header">ABOUT</h1>
-          <div class="about">
-            <div class="info">
-              <p>
-                Hi, I'm Onderi Jonathan, I am an ambitious and enthusiastic
-                individual who is dedicated to delivering high-quality,
-                user-friendly solutions that meet the needs of my clients.
-              </p>
-              <p>
-                I am a firm believer in the power of creativity, learning, and
-                improvement, and I am always looking for new and exciting
-                challenges to take on.
-              </p>
-              <p>
-                In addition to my expertise in web and mobile development, I am
-                also passionate about machine learning and data science. I am
-                always up-to-date with the latest advancements in these fields,
-                and I am always looking for ways to integrate these technologies
-                into my work.
-              </p>
-              <p>
-                I specialize in using technologies such as Python, MySQL,
-                Django, Flutter, ReactJs, Javascript, HTML, and CSS to create
-                fast, responsive, and integrated web and mobile solutions. I am
-                confident in my ability to deliver high-quality, user-friendly
-                solutions that meet the needs of my clients.
-              </p>
-            </div>
-            <div>
-              <img
-                src="./static/images/profile.webp"
-                alt=""
-                class="about-img"
-              />
-            </div>
-          </div>
-          <h2>Here is some of my skills:</h2>
-          <div class="skills">
-            <ul>
-              <li>Python</li>
-              <li>Django</li>
-              <li>Mysql</li>
-              <li>Git</li>
-            </ul>
-            <ul>
-              <li>Javascript</li>
-              <li>Flutter</li>
-              <li>Dart</li>
-              <li>HTML & CSS</li>
-              <li>ReactJs</li>
-            </ul>
-          </div>
-        </section>
-      </div>
-      <div id="contact">
-        <div class="footer">
-          <div class="social-links">
-            <div>
-              <a href="https://www.linkedin.com/in/jonathan-onderi-93aab3195">
-                <span>linkedin</span>
-                <svg
-                  width="33"
-                  height="32"
-                  viewBox="0 0 33 32"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M7.94085 24.766L24.3465 8.3604M24.3465 8.3604H10.4648M24.3465 8.3604V22.2421"
-                    stroke="currentColor"
-                  ></path>
-                </svg>
-              </a>
-            </div>
-            <div>
-              <a href="https://wa.me/254742446941">
-                <span>whatsapp</span>
-                <svg
-                  width="33"
-                  height="32"
-                  viewBox="0 0 33 32"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M7.94085 24.766L24.3465 8.3604M24.3465 8.3604H10.4648M24.3465 8.3604V22.2421"
-                    stroke="currentColor"
-                  ></path>
-                </svg>
-              </a>
-              <a href="https://github.com/ojayjonathan/">
-                <span> github</span>
-                <svg
-                  width="33"
-                  height="32"
-                  viewBox="0 0 33 32"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M7.94085 24.766L24.3465 8.3604M24.3465 8.3604H10.4648M24.3465 8.3604V22.2421"
-                    stroke="currentColor"
-                  ></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-          <div class="blank"></div>
-          <div class="email">jonathanonderi2018@yahoo.com</div>
-        </div>
-      </div>
-    </main>
-
-    <div class="project-details">
-      <ul class="transition">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <div class="container">
-        <div class="my-1" style="position: sticky; z-index: 100">
-          <button class="close">
-            <svg
-              width="70"
-              viewBox="0 0 296 98"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M241.4 97.2H228.4C228.4 66.7 265.1 42.2 295.4 42.2V55.4C271.6 55.4 241.4 74.9 241.4 97.2Z"
-                fill="#fff"
-              />
-              <path
-                d="M295.4 55.2C265.1 55.2 228.4 30.7 228.4 0.200012H241.4C241.4 22.4 271.6 42 295.4 42V55.2Z"
-                fill="#fff"
-              />
-              <path d="M295.4 42H0.400024V55.4H295.4V42Z" fill="#fff" />
-            </svg>
-          </button>
-        </div>
-
-        <div id="project-description-top"></div>
-        <div class="project-description" id="project-description-bottom"></div>
-      </div>
-      <div id="contact">
-        <div class="footer">
-          <div class="social-links">
-            <div>
-              <a href="https://www.linkedin.com/in/jonathan-onderi-93aab3195">
-                <span>linkedin</span>
-                <svg
-                  width="33"
-                  height="32"
-                  viewBox="0 0 33 32"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M7.94085 24.766L24.3465 8.3604M24.3465 8.3604H10.4648M24.3465 8.3604V22.2421"
-                    stroke="currentColor"
-                  ></path>
-                </svg>
-              </a>
-            </div>
-            <div>
-              <a href="https://wa.me/254742446941">
-                <span>whatsapp</span>
-                <svg
-                  width="33"
-                  height="32"
-                  viewBox="0 0 33 32"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M7.94085 24.766L24.3465 8.3604M24.3465 8.3604H10.4648M24.3465 8.3604V22.2421"
-                    stroke="currentColor"
-                  ></path>
-                </svg>
-              </a>
-              <a href="https://github.com/ojayjonathan/">
-                <span> github</span>
-                <svg
-                  width="33"
-                  height="32"
-                  viewBox="0 0 33 32"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M7.94085 24.766L24.3465 8.3604M24.3465 8.3604H10.4648M24.3465 8.3604V22.2421"
-                    stroke="currentColor"
-                  ></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-          <div class="blank"></div>
-          <div class="email">jonathanonderi2018@yahoo.com</div>
-        </div>
-      </div>
-    </div>
-    <canvas id="transition-overlay"> </canvas>
-
-    <script src="./static/js/index.bundle.js"></script>
-  </body>
 </html>

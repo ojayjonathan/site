@@ -7,7 +7,7 @@ class Scroll {
     this.main = document.querySelector("main");
     // document.querySelector("body").style.height = this.main.clientHeight + "px";
     this.main.style.position = "absolute";
-   
+
     window.addEventListener("scroll", (e) => {
       this.scrollY = window.pageYOffset;
       this.scrollX = window.pageXOffset;
@@ -27,3 +27,10 @@ class Scroll {
 
 scroll = new Scroll();
 scroll.scroll();
+const hasKeyboard = window.matchMedia("(any-pointer:coarse)").matches; // Check if the device has a keyboard
+const keyboardMessage = document.querySelector(".keyboard-message");
+
+if (hasKeyboard) {
+  keyboardMessage.style.display = "inline"; // Show the message if keyboard is detected
+  keyboardMessage.classList.add("scroll-animation"); // Add scroll animation class
+}
